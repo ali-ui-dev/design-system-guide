@@ -2,12 +2,18 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.container-main {
+.main-container {
     max-width: 1320px;
     margin-left: auto;
     margin-right: auto;
 }
 
+.main-header {
+    margin: -20px 0 50px 0;
+    background-color: #B0E8F1;
+    padding: 20px;
+    border-radius: 8px;
+}
 .container-new {
     padding-left: 16px;
     padding-right: 16px;
