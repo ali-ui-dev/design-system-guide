@@ -2,6 +2,12 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.container-main {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .container-new {
     padding-left: 16px;
     padding-right: 16px;
@@ -110,7 +116,7 @@ body {
     grid-column: span 1;
 }
 
-@container  (min-width: 480px) {
+@container (min-width: 480px) {
     .sm\:grid-cols-12 {
         grid-template-columns: repeat(12, minmax(0, 1fr));
     }
@@ -218,9 +224,10 @@ body {
 }
 
 @container (min-width: 960px) {
-    .grid{
-        background:#333;
+    .grid {
+        background: #333;
     }
+
     .md\:grid-cols-12 {
         grid-template-columns: repeat(12, minmax(0, 1fr));
     }
@@ -327,7 +334,7 @@ body {
     }
 }
 
-@container  (min-width: 1280px) {
+@container (min-width: 1280px) {
     .lg\:grid-cols-12 {
         grid-template-columns: repeat(12, minmax(0, 1fr));
     }
@@ -425,7 +432,7 @@ body {
     }
 }
 
-@container  (min-width: 1920px) {
+@container (min-width: 1920px) {
     .xl\:grid-cols-12 {
         grid-template-columns: repeat(12, minmax(0, 1fr));
     }
