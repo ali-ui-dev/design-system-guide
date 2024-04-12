@@ -78,7 +78,6 @@
     background-image: linear-gradient(135deg, var(--deep-stripcolor) 10%, #0000 0, #0000 50%, var(--deep-stripcolor) 0, var(--deep-stripcolor) 60%, #0000 0, #0000);
     background-size: 7.07px 7.07px;
     color: var(--inner-stripe-text-color);
-    padding: 10px;
 }
 
 .stripesover {
